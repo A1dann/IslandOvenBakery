@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Have questions? Reach out to Island Oven Bakery. We’d love to hear your feedback or help with your order.">
+        <meta name="author" content="Aidan Alexander">
+        <title>Contact - Island Oven Bakery</title>
+        <link rel="stylesheet" href="CSS/global_styles.css">
+        <link rel="stylesheet" href="CSS/contact_styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+
+    <body>
+
+        <!--Navigation Bar-->
+        <div class="mobile-header">
+            <div class="menu-toggle" aria-label="Toggle mobile menu" role="button" tabindex="0">
+                <i class="fa-solid fa-bars"></i>
+            </div>  
+            <div class="mobile-logo"><a href="index.html">Island Oven Bakery</a></div>
+        </div>
+
+        <nav class="navbar">
+            <div class="nav-links">
+                <div class="menu"><a href="menu.html">Menu</a></div>
+                <div class="locations"><a href="locations.html">Locations</a></div>
+                <div class="logo"><a href ="index.html" aria-current="page">Island Oven Bakery</a></div>
+                <div class="about"><a href="about.html">About Us</a></div>
+                <div class="contact"><a href="contact.html">Contact</a></div>
+            </div>
+        </nav>
+
+         <!--Main Section-->
+        <main>
+            
+            <!--Title Section-->
+            <section class="title">
+                <div class="title-box">
+                    <h1>Contact Us</h1>
+                </div>
+            </section>
+
+            <!--Information Cards Section-->
+            <section class="information-container">
+                <div class="information">
+                    
+                    <div class="information-card">
+                    <i class="fa-solid fa-phone icon"></i>
+                    <div class="information-info">
+                        <h2 class="sub-title">Call Us</h2>
+                        <p>Have a question or need assistance? Call us during business hours.</p>
+                        <p id="number">(868) 123-4567</p>
+                    </div>
+                    </div>
+
+                    <div class="information-card">
+                    <i class="fa-regular fa-clock icon"></i>
+                    <div class="information-info">
+                        <h2 class="sub-title">Opening Hours</h2>
+                        <p>Opening hours vary by location. View branch hours on our locations page.</p>
+                        <a href="locations.html" class="information-button">View Opening Hours</a>
+                    </div>
+                    </div>
+
+                    <div class="information-card">
+                    <i class="fa-solid fa-location-dot icon"></i>
+                    <div class="information-info">
+                        <h2 class="sub-title">Locations</h2>
+                        <p>Find your nearest Island Oven Bakery and view branch details and opening hours.</p>
+                        <a href="locations.html" class="information-button">View Locations</a>
+                    </div>
+                    </div>
+
+                    <div class="information-card">
+                    <i class="fa-solid fa-circle-info icon"></i>
+                    <div class="information-info">
+                        <h2 class="sub-title">About Island Oven</h2>
+                        <p>Learn more about our story, values and commitment to island-style baking.</p>
+                        <a href="about.html" class="information-button">Learn More</a>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contact Section-->
+            <section class="form-container">
+                <div class="form-box">
+                    <h2 class="form-title">Email Us</h2>
+                    <p class="form-intro">Have another question? We’ll try and respond as soon as possible.</p>
+
+                    <form method="get" class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name ">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@email.com">
+                            </div>
+
+                            <div class="form-field">
+                                <label for="phone">Phone Number</label>
+                                <input type="text" id="phone" name="phone" placeholder="(868) 000-0000">
+                            </div>
+                        </div>
+
+                        <div class="form-field full-width">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+
+                        <div class="form-field full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message"></textarea>
+                        </div>
+
+                        <div class="form-button">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="socialscontainer">
+                <p>© 2026 Island Oven Bakery</p>
+                <div class="sociallinks">
+                    <a href="https://instagram.com" target="_blank" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/" target="_blank" aria-label="Visit our X (Twitter) profile"><i class="fa-brands fa-x"></i></a>
+                </div>
+            </div>
+            <div class="footerlogo"><p><a href="index.html">Island Oven Bakery</a></p></div>
+            <div class="contactcontainer"><p>Phone: (868) 123-4567</p><p>Email: officalIslandOven@gmail.com</p></div>      
+        </footer>
+
+        <script src="JavaScript/form_validation.js"></script> 
+        <script src="JavaScript/global.js"></script>
+    </body>
+</html>

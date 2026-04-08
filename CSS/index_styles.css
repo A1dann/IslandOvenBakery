@@ -1,0 +1,147 @@
+.hero a, .menu-button a, .about-button a, .location-button a{
+    padding:15px 25px;
+    border-radius:35px;
+    background-color: #8B0028;
+    color: #FFFFFF;
+}
+
+.hero a:hover, .menu-button a:hover, .about-button a:hover, .location-button a:hover{
+    background-color: #a3002f; 
+}
+
+.about-button, .location-button{
+    margin-top: 5px;
+}
+
+.hero{
+    background-color:#F0BCC7;
+    color:#6E001F;
+    text-align:center;
+    height:600px;
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+.hero-text{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+
+.hero h1{ 
+    margin-bottom:30px; 
+}
+
+#menu{
+    background-color:#eee8dd;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px 30px;
+    padding:40px 20px 50px;
+}
+
+#menu img{
+    width:100%;
+    max-width:220px;
+    height:auto;
+}
+
+.item{
+    flex:0 1 220px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:15px;
+}
+
+.menu-button{
+    flex-basis:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:5px;
+}
+
+#menu h2{ 
+    font-size:1.75em; 
+}
+
+#info{
+    background-color:#eee8dd;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    min-height:300px;
+}
+
+.about-box,.location-box{
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+  
+}
+
+.about-box p, .location-box p{
+    line-height: 2.0;
+    text-align: center;
+    margin-top: -12.5px;;
+}
+
+.about-box h2, .location-box h2{
+    line-height: 1.0;
+    text-align: center;
+    margin-top: -12.5px;;
+}
+
+@media (max-width: 768px){
+    .hero a {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+        border-radius: 20px !important;
+    }
+    
+    #info{
+        display:flex;
+        flex-direction:column;
+        gap:45px;
+    }
+
+    #menu{
+        gap:30px;
+        padding:30px 15px 40px;
+    }
+
+    .item{
+        flex:0 1 100%;
+    }
+
+    #menu img{
+        max-width:180px;
+    }
+    
+    .about-box, .location-box{
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-box{
+        margin-top: 20px;
+    }
+    .location-box{
+        margin-bottom: 20px;
+    }
+
+}
